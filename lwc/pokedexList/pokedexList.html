@@ -1,0 +1,14 @@
+<template>
+    <template if:true={pokemon.data}>
+        <template for:each={pokemon.data} for:item="poke">
+            <div key={pokemon.Name}>
+                <c-pokedex
+                pokemon={pokemon}
+                class="slds-col slds-var-m-around_small"
+                ></c-pokedex>
+            </div>
+        </template>
+        
+    </template>
+    
+</template>

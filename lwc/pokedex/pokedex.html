@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-align_absolute-center">
+    <lightning-card  title={pokemon.Name} icon-name="custom:custom34">
+    <lightning-button label="Details" slot="actions"></lightning-button>
+    <!--body start-->
+    <div class="slds-var-p-horizontal_small">{pokemon.Name}
+    <img
+    class="specie slds-alig_absolute-center slds-var-m-around_medium"
+    src={pokemon.Imagen_URL_c}
+    alt={pokemon.Name}
+    />
+</div>
+    <!--body end -->
+</lightning-card>
+</div>
+</template>
